@@ -2110,7 +2110,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .crew-4 .members .photo-wrapper {
   width: 265px;
-  height: 180px;
+  height: 320px;
   position: relative;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2121,6 +2121,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-transition: background-color 0.4s;
   -o-transition: background-color 0.4s;
   transition: background-color 0.4s;
+
 }
 .crew-4 .members .photo {
   position: absolute;
@@ -2141,6 +2142,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
+  background-size: cover;
 }
 .crew-4 .members .photo img {
   display: none;
